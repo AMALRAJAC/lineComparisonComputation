@@ -10,9 +10,16 @@ public class LineComparisonComputation {
 		if(temp==0) {
 			temp=result;
 			System.out.println("enter the values for second line");
+			
 		}
 		else if(temp==result) {
 			System.out.println("lines is of equal length");
+		}
+		else if(temp<result) {
+			System.out.println("length of line1<line2");
+		}
+		else if(temp>result) {
+			System.out.println("length of line1>line2");
 		}
 	}
   
@@ -35,9 +42,10 @@ public class LineComparisonComputation {
        int n4 = y2.nextInt(); 
        
        line(n1,n2,n3,n4);
+       
 	   }
       
       
-      
+	  
    }
 }  
