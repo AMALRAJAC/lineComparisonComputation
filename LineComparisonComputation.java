@@ -12,7 +12,7 @@ public class LineComparisonComputation {
 			System.out.println("enter the values for second line");
 		}
 		else if(temp==result) {
-			
+		System.out.println("lines are equal");
 		}
 	}
   
